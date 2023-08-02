@@ -1,0 +1,28 @@
+# LIST : group of data and are assigned by -->[]--> also allows the dulication immutable
+
+arr = [5,2,3,4,4,1]
+
+# Features
+
+print(4 in arr)#True
+
+print(arr.index(3))#2
+
+print(len(arr))#6
+
+print(max(arr))#5
+
+print(min(arr))#1
+
+# arr.remove(1)
+
+print('before sort::',arr)#[5,2,3,4,4]
+
+arr.sort()
+print('after sort::',arr)
+
+arr.append(12)
+print('add of 12 ::',arr)
+
+arr.remove(12)
+print('remove of 12 ::',arr)
