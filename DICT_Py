@@ -1,0 +1,29 @@
+# DICT : store pair of vale ,
+
+# adding values
+d = {}
+print(type(d))
+
+d1 = {1:10,2:20,3:30}
+
+
+d.__setitem__('name','hari')
+print('after adding name ::',d)
+
+d['age']=23
+print('after adding age ::',d)
+
+# max values
+print(max(d1.items()))
+print(max(d1.keys()))
+print(max(d1.values()))
+
+# min values
+print(min(d1.items()))
+print(min(d1.keys()))
+print(min(d1.values()))
+
+# fetching data
+print('name value is ::',d['name'])
+
+print('age value is ::',d.get('age'))
