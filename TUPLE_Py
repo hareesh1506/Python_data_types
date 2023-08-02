@@ -1,0 +1,15 @@
+# TUPLE : mutable , allows duplicates ,faster compare with list , denots by ()
+
+t = ()
+
+print(type(t))
+
+t=(0,1,2,3,4)
+print('first value is ::',t[0])
+
+print('length of tuple::',len(t))
+
+print('max of value ::',max(t))
+
+print('min of value ::',min(t))
+
